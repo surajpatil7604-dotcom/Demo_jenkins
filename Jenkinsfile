@@ -10,7 +10,7 @@ pipeline{
         }
         stage('run python program'){
             steps {
-                sh "python3 inhertance.py"
+                sh "python3 extract.py"
             }
         }
     }
